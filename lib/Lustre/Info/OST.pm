@@ -198,7 +198,7 @@ Returns a hashref with information about the last recovery
 =item collect_ost_stats
 
 Collect a new performance sample for this ost. You are supposed to
-call this in a loop. See also L<lustre-info.pl>
+call this in a loop. See also C<lustre-info.pl>
 
 =item get_ost_stats
 
@@ -208,7 +208,7 @@ two calls of collect_ost_stats)
 
 =item collect_client_stats
 
-Almost the same as L<collect_ost_stats> but collects statistics
+Almost the same as C<collect_ost_stats> but collects statistics
 for each nid/export/client
 
 =item get_client_stats

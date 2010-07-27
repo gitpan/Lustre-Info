@@ -139,7 +139,7 @@ Return name of this Export
 =item collect_export_stats
 
 Collect a new performance sample for this export. You are supposed to
-call this in a loop. See also L<lustre-info.pl>
+call this in a loop. See also C<lustre-info.pl>
 
 =item get_export_stats
 

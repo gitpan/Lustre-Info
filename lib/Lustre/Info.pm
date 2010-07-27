@@ -21,7 +21,7 @@ use vars qw($VERSION @ISA @EXPORT @EXPORT_OK);
 @ISA       = qw(Exporter);
 @EXPORT    = qw();
 @EXPORT_OK = qw();
-$VERSION   = '0.01';
+$VERSION   = '0.02';
 
 use constant PROCFS_LUSTRE    => "/proc/fs/lustre";
 use constant PROCFS_OBDFILTER => "/proc/fs/lustre/obdfilter";
@@ -347,6 +347,7 @@ Copyright (C) 2010, Adrian Ulrich E<lt>adrian.ulrich@id.ethz.chE<gt>
 L<Lustre::Info::OST>,
 L<Lustre::Info::Export>,
 L<Lustre::Info::MDT>,
+L<Lustre::LFS>,
 L<http://www.lustre.org>
 
 =cut

@@ -2,7 +2,7 @@ Changes
 Makefile.PL
 MANIFEST
 README
-lustre-info.pl
+script/lustre-info.pl
 t/Lustre-Info.t
 lib/Lustre/Info.pm
 lib/Lustre/Info/OST.pm
